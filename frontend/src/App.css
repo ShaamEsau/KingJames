@@ -1,0 +1,33 @@
+body{
+  background-image: radial-gradient(#560093, #490aac);
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: white;
+}
+
+#heading{
+  padding: 30px;
+  background-color: #490aac;
+}
+
+form{
+  background-color: white;
+}
+
+#loginBox{
+  padding-top: 130px;
+  padding-left:400px;
+  margin: 100px;
+  width: 400px;
+}
+
+#infoBox{
+  margin: 20px;
+}
+
+#signInorUp{
+	background-color: #490aac;
+	padding: 10px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+	border: none;
+}
