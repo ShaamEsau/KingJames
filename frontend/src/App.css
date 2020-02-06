@@ -1,33 +1,50 @@
-body{
-  background-image: radial-gradient(#560093, #490aac);
-  font-family: "Arial Black", Gadget, sans-serif;
-  color: white;
+body {
+	/* Changes background to shaded background */
+    background-image: radial-gradient(#560093, #490aac);
+    /* Sets the font used for text */
+    font-family: "Arial Black", Gadget, sans-serif;
+    /* Changes color of font */
+    color: white;
 }
 
-#heading{
-  padding: 30px;
-  background-color: #490aac;
+#heading {
+	/* Adds padding to all sides with the corresponding pixels */
+    padding: 30px;
+    /* Changes background color */
+    background-color: #490aac;
 }
 
-form{
-  background-color: white;
+form {
+	/* Changes background color */
+    background-color: white;
 }
 
-#loginBox{
-  padding-top: 130px;
-  padding-left:400px;
-  margin: 100px;
-  width: 400px;
+#loginBox {
+	/* Adds padding to correspoding sides with the corresponding pixels */
+    padding-top: 130px;
+    padding-left: 400px;
+    /* Changes margin size around the whole object to corresponding pixels */
+    margin: 100px;
+    /* Sets width of the object */
+    width: 400px;
 }
 
-#infoBox{
-  margin: 20px;
+#infoBox {
+    margin: 20px;
 }
 
-#signInorUp{
-	background-color: #490aac;
-	padding: 10px;
-	margin-left: 20px;
-	margin-bottom: 30px;
-	border: none;
+#signInorUp {
+	/* Changes background color */
+    background-color: #490aac;
+    /* Adds padding to all sides with the corresponding pixels */
+    padding: 10px;
+    /* Changes margin size to corresponding side with corresponding pixels */
+    margin-left: 20px;
+    margin-bottom: 30px;
+    /* Removes border */
+    border: none;
+    /* Sets the font used for text */
+    font-family: "Arial Black", Gadget, sans-serif;
+    /* Changes color of font */
+    color: white;
 }

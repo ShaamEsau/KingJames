@@ -37,11 +37,11 @@ class App extends React.Component {
 
     /* Creates an arrow function */
     userLogin = (e) => {
-      /* Stops elements preloaded functions like a submit type button refreshing the page on click */
+        /* Stops elements preloaded functions like a submit type button refreshing the page on click */
         e.preventDefault();
         /* Generates a loop that will continue for the length of an array */
         for (var i = 0; i <= this.state.users.length; i++) {
-          /* Checks if condition is met and executes corresponding lines of code */
+            /* Checks if condition is met and executes corresponding lines of code */
             if (this.state.userName == this.state.users[i].User && this.state.userPassword == this.state.users[i].Password) {
                 /* Displays a pop up with the text and state information */
                 alert("Welcome " + this.state.userName + ", you have successfully logged in");
@@ -104,7 +104,7 @@ class App extends React.Component {
     render() {
         /* Data to be executed to the web page */
         return (
-          /* Creates a div box */
+            /* Creates a div box */
             <div id="loginBox">
       {/* Creates a form section */}
       <form>
