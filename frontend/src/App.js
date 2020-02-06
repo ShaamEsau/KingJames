@@ -113,7 +113,7 @@ class App extends React.Component {
         <input id="infoBox" type="text" size="30" placeholder="Username"
           onChange={e => this.setState({ userName : e.target.value })}/>
         <br/>
-        <input id="infoBox" type="text" size="30" placeholder="Password"
+        <input id="infoBox" type="password" size="30" placeholder="Password"
           onChange={e => this.setState({ userPassword : e.target.value })}/>
         <br/>
       {/* Creates a button that when clicked, executes the corresponding function within the component */}
